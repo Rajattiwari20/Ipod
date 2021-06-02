@@ -1,0 +1,69 @@
+#wheel-container{
+    width:  300px;
+    height: 270px;
+    background-color: rgb(240, 239, 239);
+    position: relative;
+    border-radius: 0% 0% 10% 10% ;
+    left: 40%;
+    top: 100px
+
+}
+
+#outerwheel{
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    margin: 11%;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+   
+}
+
+#innercontroller{
+    width: 130px;
+    height: 130px;
+    background-color:rgb(240, 239, 239);
+    position: absolute;
+    margin: 21.5%;
+    border-radius: 50%;
+}
+
+#menu-btn{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    font-family: sans-serif;
+    outline: none;
+}
+
+
+
+#menu{
+    position: absolute;
+    margin-left: 87px;
+  }
+  
+  #prev{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+  
+  #play{
+    position:absolute;
+    margin-top: 190px;
+    margin-left:100px;
+  }
+  
+  #next{
+     position:absolute;
+    margin-top: 100px;
+    margin-left: 190px;
+  }
+
+img{
+    height: 30px;
+    width: 30px;
+}

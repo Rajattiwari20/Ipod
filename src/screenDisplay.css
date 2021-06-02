@@ -1,0 +1,55 @@
+#screen-container{
+    width:  300px;
+    height: 310px;
+    background-color: rgb(240, 239, 239);
+    position: relative;
+    border-radius: 10% 10% 0% 0% ;
+    /* border: 2px solid black; */
+    left: 40%;
+    top: 100px
+}
+
+#mainScreen{
+    width:260px;
+    padding: 3px;
+    height: 275px;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    border: 5px solid black;
+    border-radius: 10% 10% 0% 0%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUW5iZeAHBPu7nb8GVmsQRJRcE2hrfZW4z8p2QN_hnb7e-yO2xbBYueM_ATu_Z-2eYtLI&usqp=CAU');
+    background-size: cover;
+    /* visibility: hidden; */
+}
+
+#h1-screen{
+    border-radius: 10% 10% 0% 0%;
+    background-size: cover;
+
+}
+
+ul{
+    padding-inline-start: 0px !important;
+    width:50%;
+    height: 80%;
+    
+  }
+  #list{
+    visibility: hidden;
+    background-color: white;
+  }
+  
+  #mainScreen ul li{
+    list-style: none;
+    line-height: 3rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    padding: 2%;
+  }
+  
+  .selected{
+    background-color:black;
+    color: white;
+  }
